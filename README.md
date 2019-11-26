@@ -9,9 +9,9 @@ For each of the questions below, identify a website and search query that will g
 1. A random cat fact
 
 ```swift
-// Website: https://catfact.ninja/fact
+Website: https://catfact.ninja/fact
 
-// JSON: 
+JSON: 
 {
   "fact": "Cat's urine glows under a black light.",
   "length": 38
@@ -231,6 +231,10 @@ JSON:
 ```
 11. All the movies Leonardo Dicaprio has acted in 
 
+```swift
+
+```
+
 # Part Two
 
 Status Code Scavenger Hunt!
@@ -249,16 +253,47 @@ For reference, see:
 https://en.wikipedia.org/wiki/List_of_HTTP_status_codes (Links to an external site.)
 https://http.cat
 
+1. 200:
+```swift
+Website: https://randomuser.me/api/
+Descitpion: OK,indicates that the request has succeeded 
 
-
-1. 200: https://randomuser.me/api/
+```
 1. 301
-1. 400: https://api.themoviedb.org/3/person/{person_id}?api_key=<<api_key>>&language=en-US
+```swift
+Website: ??
+Descitpion: Moved Permanently, is used for permanent URL redirection, which means the links should be updated.
+```
+1. 400:
+```swift
+Website: https://api.themoviedb.org/3/person/{person_id}?api_key=<<api_key>>&language=en-US
+Descitpion: Bad request, indicates a client error 
+```
 1. 401
+```swift
+Website: 
+Descitpion: Unauthorized, indicates lack of valid authentication credentials by client
+```
 1. 403
+```swift
+Website: 
+Descitpion: Forbidden, indicates that access to the valid URL requested in forbidden for a reason 
+```
 1. 404
+```swift
+Website: 
+Descitpion: Not found, indeicates that server could not find what was requested  
+```
 1. 418
+```swift
+Website:
+Descitpion: Im a teapot, although not explicitly defined it indicates request cant be handled by server 
+```
 1. 500
+```swift
+Website:
+Descitpion: Internal Server error, indicates server encountered an unexpected error
+```
 
 
 
