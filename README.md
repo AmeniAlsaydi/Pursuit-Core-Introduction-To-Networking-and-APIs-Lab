@@ -8,16 +8,17 @@ For each of the questions below, identify a website and search query that will g
 
 1. A random cat fact
 
-Website: https://catfact.ninja/fact
+```swift
+// Website: https://catfact.ninja/fact
 
-JSON: 
+// JSON: 
 {
   "fact": "Cat's urine glows under a black light.",
   "length": 38
 }
-
+```
 2. A list of 150 random users in English.
-
+```swift
 Website: https://randomuser.me/api/ 
 
 JSON: 
@@ -38,8 +39,10 @@ JSON:
       "latitude": "20.9267",
       "longitude": "-7.9310"
     }
-
+```
 3. All the repos on Github with Pursuit their name
+```swift 
+
 Website: https://api.github.com/search/repositories?q=pursuit
 
 JSON: 
@@ -69,9 +72,9 @@ JSON:
         "received_events_url": "https://api.github.com/users/purescript/received_events",
         "type": "Organization",
         "site_admin": false
-
+```
 4. All the JavaScript repos on Github with Pursuit in their name
-
+```swift 
 Website: https://api.github.com/search/repositories?q=pursuit+language:JavaScript
 
 JSON: 
@@ -102,9 +105,9 @@ JSON:
         "type": "User",
         "site_admin": false
     }
-    
+```    
 5. All the Swift repos on Github with Pursuit in their name
-
+```swift 
 Website: https://api.github.com/search/repositories?q=pursuit+language:Swift
 
 JSON:
@@ -135,9 +138,9 @@ JSON:
         "type": "Organization",
         "site_admin": false
     }
-
+```
 6. A list of all Pokemon
-
+```swift
 Website: https://pokeapi.co/api/v2/pokemon/
 
 JSON: 
@@ -153,8 +156,9 @@ JSON:
     "name": "venusaur",
     "url": "https://pokeapi.co/api/v2/pokemon/3/"
 },
-
+```
 7. A list of all items in Fortnite
+```swift
 Website: https://fortnite-api.theapinetwork.com/store/get
 
 JSON: 
@@ -184,33 +188,54 @@ JSON:
                 "background": "https://fortnite-public-files.theapinetwork.com/image/76f99cb1-ada0-4c12-bbf3-4e34cece6a97.png",
                 "information": "https://fortnite-public-files.theapinetwork.com/image/76f99cb1-ada0-4c12-bbf3-4e34cece6a97/item.png"
             }
-            
+```            
 8. A list of all Game of Thrones Episodes.
-Website: 
+```swift
+
+Website: https://api.got.show/api/show/episodes
+
+JSON: "_id": "5cc074bf04e71a0010b85a1c",
+    "title": "Lord Snow",
+    "season": 1,
+    "episode": 3,
+    "runtime": 58,
+    "directed_by": "Brian Kirk",
+    "createdAt": "2019-04-24T14:37:51.760Z",
+    "updatedAt": "2019-04-24T14:37:51.760Z",
+    "__v": 0
+}
+```
+9. A list of all songs with "Love" in the title.
+```swift
+
+```
+10. All information about Petyr Baelish from the Game of Thrones books
+```swift
+Website: https://www.anapioficeandfire.com/api/characters/823
 
 JSON: 
-
-
-1. A list of all songs with "Love" in the title.
-1. All information about Petyr Baelish from the Game of Thrones books
-1. All the movies Leonardo Dicaprio has acted in
+"name": "Petyr Baelish",
+"gender": "Male",
+"culture": "Valemen",
+"born": "In 268 AC, at the Fingers",
+"died": "",
+"titles": [
+    "Master of coin (formerly)",
+    "Lord Paramount of the Trident",
+    "Lord of Harrenhal",
+    "Lord Protector of the Vale"
+],
+"aliases": [
+    "Littlefinger"
+],
+```
+11. All the movies Leonardo Dicaprio has acted in 
 
 # Part Two
 
 Status Code Scavenger Hunt!
 
 Use Postman to find each of the following HTTP codes:
-
-
-1. 200
-1. 301
-1. 400
-1. 401
-1. 403
-1. 404
-1. 418
-1. 500
-
 
 For each of the questions below, write:
 
@@ -223,6 +248,18 @@ For reference, see:
 
 https://en.wikipedia.org/wiki/List_of_HTTP_status_codes (Links to an external site.)
 https://http.cat
+
+
+
+1. 200: https://randomuser.me/api/
+1. 301
+1. 400: https://api.themoviedb.org/3/person/{person_id}?api_key=<<api_key>>&language=en-US
+1. 401
+1. 403
+1. 404
+1. 418
+1. 500
+
 
 
 
